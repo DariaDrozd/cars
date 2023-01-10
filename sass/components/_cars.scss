@@ -1,0 +1,83 @@
+.car_cards {
+    display: flex;
+}
+
+
+
+
+
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    font-family: arial;
+    background-color: #393F47;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.reno_img {
+    width: 400px;
+    height: 250px;
+}
+
+.reno_card {
+    display: flex;
+    justify-content: center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 166px;
+    margin-right: auto;
+
+    padding-bottom: 12px;
+    width: 400px;
+    background-color: #393F47;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.reno_name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: calc(22/18);
+    text-transform: uppercase;
+    color: #C8A35F;
+    margin-top: 10px;
+}
+
+.reno_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: calc(25/16);
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #ffff;
+}
+
+.faw_img {
+    width: 400px;
+    height: 250px;
+}
+
+.faw_card {
+    display: flex;
+        justify-content: center;
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 166px;
+        margin-left: auto;
+    
+        padding-bottom: 12px;
+        width: 400px;
+        background-color: #393F47;
+        border-radius: 5px 5px 5px 5px;
+}

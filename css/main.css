@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #FFFFFF;
+  background-color: #2F343A;
   color: #212121;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -135,18 +135,18 @@ img {
 }
 
 .hero {
-  padding-top: 200px;
+  padding-top: 155px;
   padding-bottom: 200px;
   text-align: center;
 }
 
 .hero {
   max-width: 1600px;
-  height: 1000px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img/trucking.jpg);
+  background-color: #2F343A;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -194,12 +194,16 @@ img {
   border: 2px solid #c8a35f;
 }
 
+.car_cards {
+  display: flex;
+}
+
 .card {
   width: 100%;
   max-width: 400px;
   text-align: center;
   font-family: arial;
-  background-color: #ffffff;
+  background-color: #393F47;
   border-radius: 10px;
 }
 
@@ -216,11 +220,11 @@ img {
   display: flex;
   justify-content: center;
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
-  margin-top: 100px;
+  margin-top: 166px;
   margin-right: auto;
   padding-bottom: 12px;
   width: 400px;
-  background-color: #ffffff;
+  background-color: #393F47;
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -233,7 +237,7 @@ img {
   text-align: center;
   letter-spacing: 1.2222222222;
   text-transform: uppercase;
-  color: #2F343A;
+  color: #C8A35F;
   margin-top: 10px;
 }
 
@@ -241,10 +245,28 @@ img {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 25px;
   text-align: center;
   letter-spacing: 1.5625;
   text-transform: uppercase;
   margin-top: 10px;
+  color: white;
+}
+
+.faw_img {
+  width: 400px;
+  height: 250px;
+}
+
+.faw_card {
+  display: flex;
+  justify-content: center;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 166px;
+  margin-left: auto;
+  padding-bottom: 12px;
+  width: 400px;
+  background-color: #393F47;
+  border-radius: 5px 5px 5px 5px;
 }/*# sourceMappingURL=main.css.map */
