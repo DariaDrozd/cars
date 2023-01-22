@@ -1,0 +1,71 @@
+.services {
+    margin-top: 200px;
+}
+
+.serv_head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: relative;
+  color: #ffffff;
+}
+.serv_head::before {
+content: " ";
+    background: #C8A35F;
+    width: 100px;
+    height: 6px;
+    /* располагаем линию сверху от текста */
+    top: -15px;
+    /* включаем абсолютное позиционирование относительно блока с relative */
+    position: absolute;
+}
+
+.serv_list {
+    column-count: 2;
+    margin-top: 60px;
+
+    
+}
+
+.serv_text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: calc(22/18);
+        text-transform: uppercase;
+    
+        color: #ffffff;
+}
+
+.serv_link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #393F47;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    
+}
+
+.serv_plus {
+   text-align: center;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    
+        /* #F2F2F2 */
+    
+        color: #F2F2F2;
+    
+        opacity: 0.8;
+}
+
