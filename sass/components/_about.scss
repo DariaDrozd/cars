@@ -1,0 +1,43 @@
+.about {
+    margin-top: 200px;
+    
+}
+
+.about_title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        position: relative;
+        color: #ffffff;
+      
+        margin-left: 900px;
+}
+
+.about_title::before {
+    content: " ";
+    background: #C8A35F;
+    width: 100px;
+    height: 6px;
+    /* располагаем линию сверху от текста */
+    top: -15px;
+    /* включаем абсолютное позиционирование относительно блока с relative */
+    position: absolute;
+}
+
+.about_text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: calc(22/18);
+        text-transform: uppercase;
+        margin-top: 50px;
+        color: #ffffff;
+        opacity: 80%;
+        
+}
