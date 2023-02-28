@@ -38,10 +38,10 @@
               <a class="header_nav-link link" href="#services">Послуги</a>
             </li>
             <li class="header_list-link link">
-              <a class="header_nav-link link" href="./">Замовлення</a>
+              <a class="header_nav-link link" href="#about">Про нас</a>
             </li>
             <li class="header_list-link link">
-              <a class="header_nav-link link" href="./">Контакти</a>
+              <a class="header_nav-link link" href="./">Тарифи</a>
             </li>
           </ul>
         </nav>
@@ -56,7 +56,7 @@
         <div class="hero_container container">
           <div class="hero_border">
             <h1 class="hero_text">Залишай заявку, а ми перетелефонуємо!</h1>
-            <button class="hero_btn" type="button">Замовити переїзд</button>
+            <button  data-modal-open class="hero_btn" type="button">Замовити переїзд</button>
           </div>
         </div>
       </section>
@@ -113,8 +113,9 @@
         </div>
       </section>
       <section class="about container">
+        <a name="about"></a>
         <h2 class="about_title">Про нас</h2>
-        <p class="about_text">Ми більше 3-ох років займається перевезенням вантажів по Україні.
+        <p class="about_text">Наша компанія пропонує широкий спектр послуг з доставки вантажів, експрес-доставку та багато іншого. Наші професійні водії завжди готові надати високоякісний сервіс та забезпечити вчасну доставку вантажів за доступними цінами. Ми більше 3-ох років займається перевезенням вантажів по Україні.
        <br>Наша головна мета - це надання послуг по перевезенню будь-чого в потрібне місце та в мінімальні строки.
 <br>Для цього ми зібрали особистий автопарк і штат кваліфікованих працівників. <br>На рахунку задоволених клієнтів вже більше 1000 - тому не зволікай та телефонуй!</p>
       </section>
@@ -132,6 +133,47 @@
         </div>-->
       
       </section>
+       <div class="canculator contaier">
+        <h2 class="title">канкулятор</h2>
+        <p>Оголошена вартість за 1 км - 27 грн</p>
+        <form action="#" class="form">
+            <label for="price">Ціна</label>
+            <input type="text" id="price" name="price" value="27">
+            <label for="quantity">Кількість км</label>
+            <input type="text" id="quantity" name="quantity" value="1">
+        </form>
+        <p class="text-right total" id="total"></p>
+    </div>
     </main>
+     <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button  data-modal-close class="modal__button" type="button>" >
+          <span class="modal_close-btn">X</span>
+        </button>
+      <form class="form" name="order-form" autocomplete="on" novalidate>
+      <p class="form__title">Залиште свої дані, а ми вам перезвонимо</p>
+      <div class="form__area">
+        <div class="form__field">
+        <label class="form__label" for="name">Ім'я</label>
+        <input class="form__input" type="text" name="name" id="name">
+        </div>
+        <div class="form__field">
+        <label class="form__label" for="phone">Телефон</label>
+        <input class="form__input" type="tel" name="phone" id="phone">
+        </div>
+        <div class="form__field">
+        <label class="form__label" for="mail">Пошта</label>
+        <input class="form__input" type="email" name="mail" id="mail">
+        <button data-modal-send class="modal__button-send" type="button">Відправити</button>
+        </div>
+       
+    <script src="./js/calculator.js">	</script>
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
